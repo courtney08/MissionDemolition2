@@ -978,9 +978,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2049809386452490063, guid: ec1b08e6b5d7b49438cc1c5f4861049f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2611519524857584281, guid: ec1b08e6b5d7b49438cc1c5f4861049f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5301469338048939330, guid: ec1b08e6b5d7b49438cc1c5f4861049f, type: 3}
       propertyPath: m_Name
-      value: Castle
+      value: Castle 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5301469338048939330, guid: ec1b08e6b5d7b49438cc1c5f4861049f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7060671895506537889, guid: ec1b08e6b5d7b49438cc1c5f4861049f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1021,6 +1033,10 @@ PrefabInstance:
     - target: {fileID: 7060671895506537889, guid: ec1b08e6b5d7b49438cc1c5f4861049f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8672003881705554161, guid: ec1b08e6b5d7b49438cc1c5f4861049f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
