@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public enum GameMode{
@@ -67,6 +68,10 @@ public class MissionDemolition : MonoBehaviour
         if((mode == GameMode.playing) && Goal.goalMet){
             mode = GameMode.levelEnd;
             FollowCam.SWITCH_VIEW(FollowCam.eView.both);
+
+            if(level >= levelMax-1){
+                SceneManager.LoadScene("_GO_PA");
+            }
             Invoke("NextLevel", 2f);
         }
     }
