@@ -1,3 +1,3 @@
-# What I added to the game to make cooler:
-## Some background techno like music that I tend to hear in games like this
+## What I added to the game to make cooler:
+### Some background music that reminds me of games that are calming
  
